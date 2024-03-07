@@ -1,6 +1,4 @@
-*{
-    border: 3px blue dashed;
-}
+
 
 @font-face {
     src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
@@ -47,7 +45,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-background-color: orange;    
+background-color: #F7C190;    
   }
 
   .footer-wrapper {
@@ -68,10 +66,12 @@ background-color: orange;
 
 .font-name {
     grid-area: f;
+    color: white;
 }
 
 .text-wrapper{
   grid-area: t;
+  color: white;
 }
 
 
@@ -79,9 +79,11 @@ background-color: orange;
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 10em;
     animation: weightChange 7s infinite;
+    color: #F49F51;
 }
+
 
 @keyframes weightChange {
     0%, 100%{
@@ -95,7 +97,7 @@ h3{
 .variable-font{
     font-weight:1 ;
     height:100vh;
-    font-size: 10em;
+    font-size: 50em;
     display:grid;
     place-content: center;
     margin: 0;

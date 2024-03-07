@@ -8,7 +8,8 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: lightgray;
+      color: white;
+      background: #F7C190;
       text-align: center;
       top:0px;
       position: fixed;
@@ -26,7 +27,7 @@
       padding-top:10px;
       top: 100%;
       left: 0;
-      background: gray;
+      background: #F7C190;
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -45,7 +46,7 @@
   }
   
   nav a {
-      color: black;
+      color: rgb(255, 255, 255);
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -81,7 +82,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: black;
+          background: rgb(255, 255, 255);
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
