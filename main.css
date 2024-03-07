@@ -79,11 +79,10 @@ background-color: #F7C190;
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 10em;
+    font-size: 15em;
     animation: weightChange 7s infinite;
     color: #F49F51;
 }
-
 
 @keyframes weightChange {
     0%, 100%{
