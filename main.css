@@ -1,3 +1,7 @@
+*{
+    border: 3px blue dashed;
+}
+
 @font-face {
     src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
          url('fonts/Kalnia-VariableFont_wdth\,wght.ttf') format('truetype');
@@ -8,7 +12,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: #FFEDC9;
     font-family: 'Kalnia';
 }
 /* how the page wrapper will appear on mobile */
@@ -43,8 +47,33 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+background-color: orange;    
+  }
+
+  .footer-wrapper {
+    /*wrap the full width of page */
+    width:100%;
+    /* so i can use css grid */
+    display: grid;
+    grid-gap: 3px;
+    /* space around the whole box */
+    padding:10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        ". . . . . . . t t t . ."
+        ". f f f . . . t t t . ."
+        ". . . . . . . t t t . .";
 }
+
+.font-name {
+    grid-area: f;
+}
+
+.text-wrapper{
+  grid-area: t;
+}
+
 
 /* variable font animation */
 h3{
