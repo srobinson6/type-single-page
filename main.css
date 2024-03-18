@@ -32,15 +32,16 @@ grid-template-areas:
 }
 
 .history {
-grid-area: h;
+
+
 }
 
 .variations{
-grid-area: v;
+
 }
 
 .alphabet {
-grid-area: a;
+
 }
 }
 /* CSS for the footer */
@@ -72,6 +73,10 @@ background-color: #F7C190;
 .text-wrapper{
   grid-area: t;
   color: white;
+}
+
+#alphabet{
+    margin-top: 50px;
 }
 
 
