@@ -120,7 +120,7 @@
       grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
     .logo {
-      grid-column: 2 / span 1;
+      grid-column: 0 / span 1;
     }
     nav {
       all: unset;
