@@ -95,13 +95,23 @@ h2{
     font-size: 30px;
     font-weight: bold;
     margin-right: 50px;
+    color: ;
 }
 
 p{
     font-size: 20px;
+    color: #58300C;;
 }
 
+p2{
+    font-size: 20px;
+    color: #58300C;;
+}
 
+p3{
+    font-size: 20px;
+    color: #58300C;;
+}
 @keyframes weightChange {
     0%, 100%{
         font-variation-settings: "wght" 200, "wdth" 100;
