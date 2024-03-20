@@ -12,6 +12,8 @@
     body{
     background-color: #FFEDC9;
     font-family: 'Kalnia';
+    overflow-x: hidden;
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -33,14 +35,15 @@ grid-template-areas:
 
 #history {
 margin-bottom: 200px;
+color: #58300C;
 }
 
-.variations{
-
+#variations{
+    color: #58300C;
 }
 
-.alphabet {
-
+#alphabet {
+    color: #58300C;
 }
 
 /* CSS for the footer */
@@ -94,18 +97,18 @@ h1{
 h2{
     font-size: 30px;
     font-weight: bold;
-    margin-right: 50px;
-    color: ;
+    text-align: right;
+   
 }
 
 p{
     font-size: 20px;
-    color: #58300C;;
+    
 }
 
 p2{
     font-size: 20px;
-    color: #58300C;;
+  
 }
 
 p3{
