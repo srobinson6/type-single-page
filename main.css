@@ -44,6 +44,7 @@ color: #58300C;
 
 #alphabet {
     color: #58300C;
+    margin-top: -15px;
 
 }
 
@@ -97,10 +98,12 @@ h1{
     margin-left: -35px;
     
 }
-h2{
+h6{
     font-size: 30px;
     font-variation-settings: "wght" 700, "wdth" 100;
     text-align: right;
+    margin-right: 250px;
+    margin-bottom: 15px;
    
 }
 h5{
@@ -147,9 +150,9 @@ p{
 }
 #four{
     font-size: 25px;
-    margin-left: 275px;
-    margin-top:-90px;
-    text-align: center;
+    margin-left: 300px;
+    margin-bottom: -30px;
+
   
 }
 
