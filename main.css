@@ -71,6 +71,7 @@ background-color: #F7C190;
 .font-name {
     grid-area: f;
     color: white;
+    
 }
 
 .text-wrapper{
@@ -109,6 +110,7 @@ h5{
    
 }
 
+
 p{
     font-size: 20px;
 }
@@ -128,13 +130,14 @@ p{
 }
 #three{
     font-size: 25px;
-    margin-left: 200px;
+    margin-left: 275px;
+    margin-top:-90px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.722);
     border-style: solid;
     border-color:#C19B79;
     display: block;
-    height: 80px;
+    height: 130px;
     width: 50%;
     border-width: 4px;
     

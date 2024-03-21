@@ -19,6 +19,7 @@
   
   .logo {
     margin: 0;
+    font-variation-settings: "wght" 400, "wdth" 100;
   }
   /* where to change the background color of the pop-up nav bar*/
   nav {
@@ -55,7 +56,8 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: orange;
+      color: #F490B9;
+      opacity: 50%;
   }
   
   .nav-checkbox:checked ~ nav {
