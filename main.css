@@ -13,7 +13,6 @@
     background-color: #FFEDC9;
     font-family: 'Kalnia';
     overflow-x: hidden;
-
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -151,10 +150,15 @@ p{
 #four{
     font-size: 25px;
     margin-left: 300px;
-    margin-bottom: -30px;
+    margin-top: 40px;
 
   
 }
+#image { width: 100px; }
+@media (min-width: 600px) {
+    #image { width: 300px; }
+}
+
 
 @keyframes weightChange {
     0%, 100%{
