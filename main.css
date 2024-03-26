@@ -39,11 +39,12 @@ color: #58300C;
 
 #variations{
     color: #58300C;
+    margin-top:10% ;
 }
 
 #alphabet {
     color: #58300C;
-    margin-top: -15px;
+    margin-top: -20px;
 
 }
 
@@ -110,7 +111,7 @@ h5{
     font-variation-settings: "wght" 700, "wdth" 100;
     text-align: left;
     margin-left: -20px;
-    margin-top: -57px;
+    margin-top: -65px;
 
    
 }
@@ -121,14 +122,13 @@ p{
 }
 
 #two{
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 100px;
     margin-top: -100px;
     background-color: rgba(255, 255, 255, 0.722);
     border-style: solid;
     border-color:#C19B79;
     display: block;
-    height: 130px;
     width: 50%;
     text-align: center;
     border-width: 4px;
@@ -142,7 +142,6 @@ p{
     border-style: solid;
     border-color:#C19B79;
     display: block;
-    height: 130px;
     width: 50%;
     border-width: 4px;
     
@@ -150,14 +149,11 @@ p{
 #four{
     font-size: 25px;
     margin-left: 300px;
-    margin-top: 40px;
+    margin-top: %;
 
   
 }
-#image { width: 100px; }
-@media (min-width: 600px) {
-    #image { width: 300px; }
-}
+
 
 
 @keyframes weightChange {
