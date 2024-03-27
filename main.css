@@ -86,24 +86,27 @@ background-color: #F7C190;
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 10em;
+    font-size: 12em;
     margin-top: 130px;
     margin-left: -20px;
     animation: weightChange 7s infinite;
     color: #F49F51;
+    
 }
 h1{
+    
     font-size: 35px;
     font-variation-settings: "wght" 600, "wdth" 100;
-    margin-left: -35px;
+    margin-left: -20px;
+    padding: 4%;
     
 }
 h6{
     font-size: 35px;
     font-variation-settings: "wght" 600, "wdth" 100;
     text-align: right;
-    margin-right: 250px;
-    margin-bottom: 15px;
+    margin-right: 20%;
+    margin-bottom: 1%;
    
 }
 h5{
@@ -113,6 +116,11 @@ h5{
     margin-left: -20px;
     margin-top: -65px;
 
+   
+}
+
+h2{
+    font-size: 35px;
    
 }
 
@@ -147,19 +155,24 @@ p{
     
 }
 #four{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 30%;
-
-
-
-
+    text-align: center;
     
-    
-    
-
   
 }
 
+.image1{
+    max-width: 55%;
+    max-height:55%;
+    object-fit:fill;
+}
+
+.image2{
+    max-width: 40%;
+    max-height:40%;
+    object-fit:fill;
+}
 
 
 @keyframes weightChange {
