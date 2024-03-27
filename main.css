@@ -86,7 +86,7 @@ background-color: #F7C190;
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 13em;
+    font-size: 10em;
     margin-top: 130px;
     margin-left: -20px;
     animation: weightChange 7s infinite;
@@ -148,8 +148,14 @@ p{
 }
 #four{
     font-size: 25px;
-    margin-left: 300px;
-    margin-top: 15%;
+    margin-bottom: 30%;
+
+
+
+
+    
+    
+    
 
   
 }
