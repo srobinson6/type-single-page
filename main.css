@@ -14,6 +14,9 @@
     font-family: 'Kalnia';
     overflow-x: hidden;
 }
+
+/* Media query for even smaller viewports */
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);
@@ -84,7 +87,7 @@ background-color: #F7C190;
 
 /* variable font animation */
 .hero{
-    width:100vw;
+    width: 100vw ;
 }
 h3{
     font-weight:20; 
@@ -121,6 +124,7 @@ h5{
 
    
 }
+
 
 h2{
     font-size: 35px;
@@ -176,6 +180,7 @@ p{
     max-height:40%;
     object-fit:fill;
 }
+
 
 
 @keyframes weightChange {
