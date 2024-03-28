@@ -83,6 +83,9 @@ background-color: #F7C190;
 
 
 /* variable font animation */
+.hero{
+    width:100vw;
+}
 h3{
     font-weight:20; 
     text-align: center;
